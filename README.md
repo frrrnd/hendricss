@@ -3,8 +3,8 @@
 My simple boilerplate with Nunjucks and Stylus.
 
 ### Status
-[![Top Language](https://img.shields.io/github/languages/top/frrrnd/hendricss?color=blueviolet&label=css%2Fstylus)](https://frrrnd.design)
-[![Code Size](https://img.shields.io/github/languages/code-size/frrrnd/hendricss?color=ff69b4)](https://github.com/frrrnd/blog)
+[![Top Language](https://img.shields.io/github/languages/top/frrrnd/hendricss?color=blueviolet&label=css%2Fstylus)](https://github.com/frrrnd/hendricss)
+[![Code Size](https://img.shields.io/github/languages/code-size/frrrnd/hendricss?color=ff69b4)](https://github.com/frrrnd/hendricss)
 
 ### Installation
 ```
