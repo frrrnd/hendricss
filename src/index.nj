@@ -1,0 +1,12 @@
+<!-- index.nj -->
+{% extends "layout.nj" %}
+
+{% set title = "Teste de título" %}
+{% set Page = "Home" %}
+
+{% block content %}
+
+<h1> Essa é a index ou home...</h1> 
+<code>variables: {{ title }} - {{ Page }}</code>
+
+{% endblock %}
