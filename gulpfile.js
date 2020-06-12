@@ -7,7 +7,7 @@ const browserSync = require('browser-sync').create();
 
 let paths = {
     styles: {
-        src: "src/stylus/index.styl",
+        src: "src/stylus/**/*.styl",
         dest: "static/css"
     },
 

@@ -1,12 +1,157 @@
 <!-- index.nj -->
 {% extends "layout.nj" %}
 
-{% set title = "Teste de título" %}
+<!-- set variables -->
+{% set title = "mindscape" %}
 {% set Page = "Home" %}
 
 {% block content %}
+<!-- start content -->
+<main class="swiper-container">
+    <header class="header">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" class="svg-logo">
+            <path d="M16 28.7704C23.0529 28.7704 28.7704 23.0529 28.7704 16C28.7704 8.94712 23.0529 3.22963 16 3.22963C8.94713 3.22963 3.22964 8.94712 3.22964 16C3.22964 23.0529 8.94713 28.7704 16 28.7704Z" fill="white"/>
+            <path d="M26.0011 14.1195L27.8815 15.9999L26.0011 17.8802C23.3487 20.5327 19.7511 22.0228 16 22.0228C12.2489 22.0228 8.65135 20.5327 5.99889 17.8802L4.11851 15.9999L5.99889 14.1195C8.65135 11.467 12.2489 9.97689 16 9.97689C19.7511 9.97689 23.3487 11.467 26.0011 14.1195V14.1195Z" fill="black"/>
+            <path d="M16.0001 21.3635C14.5782 19.9408 13.7794 18.0115 13.7794 16C13.7794 13.9885 14.5782 12.0592 16.0001 10.6365V10.6365C17.4221 12.0592 18.2209 13.9885 18.2209 16C18.2209 18.0115 17.4221 19.9408 16.0001 21.3635V21.3635Z" fill="white"/>
+        </svg>
+        <h1>mindscape</h1>
+        {% include "barcode.nj" %}
+    </header>
 
-<h1> Essa é a index ou home...</h1> 
-<code>variables: {{ title }} - {{ Page }}</code>
+    <div class="swiper-wrapper">
 
+        <div class="content swiper-slide">
+            <div class="content__left">
+                <div class="item__name">
+                    <h3>queen of the light</h3>
+                    <h4>crobot</h4>
+                </div>
+            </div>
+
+            <div class="content__right">
+                <img src="./static/img/queen-of-the-light.png" alt="queen of the light - crobot">
+            </div>
+        </div>
+
+        <div class="content swiper-slide">
+            <div class="content__left"> 
+                <div class="item__name">
+                    <h3>mt abraxas</h3>
+                    <h4>uncle acid & the deadbeats</h4>
+                </div>
+            </div>
+
+            <div class="content__right">
+                <img src="./static/img/mtabraxas.png" alt="mt abraxas - uncle acid">
+            </div>
+        </div>
+
+        <div class="content swiper-slide">
+            <div class="content__left">
+                <div class="item__name">
+                    <h3>morango tango</h3>
+                    <h4>macaco bong</h4>
+                </div>
+            </div>
+
+            <div class="content__right">
+                <img src="./static/img/morango-tango.png" alt="morango tango - macaco bong">
+            </div>
+        </div>
+
+        <div class="content swiper-slide">
+            <div class="content__left"> 
+                <div class="item__name">
+                    <h3>here with me</h3>
+                    <h4>Yung Bae</h4>
+                </div>
+            </div>
+
+            <div class="content__right">
+                <img src="./static/img/here-with-me.png" alt="here with me - yung bae">
+            </div>
+        </div>
+
+        <div class="content swiper-slide">
+            <div class="content__left"> 
+                <div class="item__name">
+                    <h3>malibu</h3>
+                    <h4>dd walker</h4>
+                </div>
+            </div>
+
+            <div class="content__right">
+                <img src="./static/img/malibu.png" alt="malibu - dd walker">
+            </div>
+        </div>
+
+        <div class="content swiper-slide">
+            <div class="content__left"> 
+                <div class="item__name">
+                    <h3>purple skin</h3>
+                    <h4>overfuzz</h4>
+                </div>
+            </div>
+
+            <div class="content__right">
+                <img src="./static/img/purple-skin.png" alt="purple skin - overfuzz">
+            </div>
+        </div>
+
+        <div class="content swiper-slide">
+            <div class="content__left"> 
+                <div class="item__name">
+                    <h3>earfquake</h3>
+                    <h4>tyler, the creator</h4>
+                </div>
+            </div>
+
+            <div class="content__right">
+                <img src="./static/img/earfquake.png" alt="earfquake - tyler, the creator">
+            </div>
+        </div>
+
+        <div class="content swiper-slide">
+            <div class="content__left"> 
+                <div class="item__name">
+                    <h3>i follow you</h3>
+                    <h4>melody's echo chamber</h4>
+                </div>
+            </div>
+
+            <div class="content__right">
+                <img src="./static/img/follow-you.png" alt="follow you - melody's echo chamber">
+            </div>
+        </div>
+
+        <div class="content swiper-slide">
+            <div class="content__left"> 
+                <div class="item__name">
+                    <h3>mind mischief</h3>
+                    <h4>tame impala</h4>
+                </div>
+            </div>
+
+            <div class="content__right">
+                <img src="./static/img/mind-mischief.png" alt="mind mischief - tame impala">
+            </div>
+        </div>
+
+        <div class="content swiper-slide">
+            <div class="content__left"> 
+                <div class="item__name">
+                    <h3>in your eyes</h3>
+                    <h4>the weeknd</h4>
+                </div>
+            </div>
+
+            <div class="content__right">
+                <img src="./static/img/in-your-eyes.png" alt="in your eyes - the weeknd">
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<!-- end content -->
 {% endblock %}
